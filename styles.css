@@ -1,5 +1,5 @@
 :root {
-  --primary: #0ea5e9;
+  --primary: #000000;
   --secondary: #f1f5f9;
   --accent: #64748b;
   --bg: #f8fafc;
@@ -80,6 +80,9 @@ body {
   transition: background 0.2s;
   text-decoration: none;
   display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .btn-primary:hover {
   background: #0369a1;
@@ -168,7 +171,7 @@ body {
   align-items: center;
 }
 .logos-grid img {
-  height: 48px;
+  height: 32px;
   width: auto;
   filter: grayscale(0.2) contrast(1.1);
   transition: filter 0.2s, transform 0.2s;
@@ -176,6 +179,39 @@ body {
 .logos-grid img:hover {
   filter: none;
   transform: scale(1.1);
+}
+.team-section {
+  padding: 4rem 0 2rem 0;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+.team-card {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.2rem 0.75rem;
+  text-align: center;
+  width: 100%;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.team-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+.team-role {
+  color: var(--accent);
+  font-size: 1rem;
 }
 @media (max-width: 600px) {
   .section-title {
