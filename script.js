@@ -1,18 +1,33 @@
 // Example projects data
 const projects = [
   {
-    title: 'Portfolio Website',
-    desc: 'A personal portfolio website built with HTML, CSS, and JavaScript.',
+    title: 'RESTful API Server',
+    desc: 'A scalable REST API built with Node.js and Express, supporting CRUD operations and JWT authentication.',
     link: '#'
   },
   {
-    title: 'Weather App',
-    desc: 'A weather forecast app using a public API and modern UI.',
+    title: 'Real-Time Chat Backend',
+    desc: 'A WebSocket-powered backend for real-time messaging, built with Node.js and Socket.io.',
     link: '#'
   },
   {
-    title: 'Task Manager',
-    desc: 'A simple task management tool with local storage support.',
+    title: 'E-commerce Backend',
+    desc: 'A robust backend for an e-commerce platform, featuring product management, user authentication, and payment integration.',
+    link: '#'
+  },
+  {
+    title: 'Blog API',
+    desc: 'A RESTful API for a blogging platform, supporting user roles, comments, and markdown content.',
+    link: '#'
+  },
+  {
+    title: 'Authentication Microservice',
+    desc: 'A microservice for user authentication and authorization, using JWT and OAuth2 standards.',
+    link: '#'
+  },
+  {
+    title: 'Data Analytics Pipeline',
+    desc: 'A backend pipeline for processing and analyzing large datasets, built with Python and PostgreSQL.',
     link: '#'
   }
 ];
